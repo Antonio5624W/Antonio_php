@@ -24,13 +24,14 @@ class SuperHero
 
     public static function random()
     {
-        $names = ["superman", "batman", "wonderwoman","flash","ironman"];
+        $names = ["superman", "batman", "wonderwoman","flash","ironman","hulk"];
         $powers = [
             ["fuerza", "vuelo", "velocidad"],
             ["inteligencia", "tecnología", "estrategia"],
             ["fuerza", "agilidad", "lazo de la verdad"],
             ["velocidad", "reflejos", "viaje en el tiempo"],
-            ["tecnología", "armadura", "vuelo"]
+            ["tecnología", "armadura", "vuelo"],
+            ["fuerza", "inteligencia", "estrategia"]
         ];
         $planets = ["Krypton", "Tierra", "Themyscira", "Tierra", "Tierra"];
 
